@@ -170,9 +170,12 @@ p {
   padding: 1rem 0;
 }
 .navBar ul {
+  width: 50%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 1rem 0;
 }
 footer {
   color: #22283B;
