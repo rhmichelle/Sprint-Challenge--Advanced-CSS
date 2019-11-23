@@ -1,1 +1,13 @@
 // Mixins Here
+.flex(@justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.flexColumn(@xaxis, @yaxis) {
+    display: flex;
+    flex-direction: column;
+    justify-content: @xaxis;
+    align-items: @yaxis;
+}
