@@ -275,6 +275,11 @@ footer {
   border-radius: 5px;
 }
 @media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
   .home .walk .walk-text {
     width: 100%;
     padding: 1rem;
