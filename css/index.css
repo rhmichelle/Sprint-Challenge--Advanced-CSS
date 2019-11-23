@@ -285,6 +285,13 @@ footer {
   width: 46%;
   margin-left: 4%;
 }
+@media (max-width: 500px) {
+  .home .walk .walk-img {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+  }
+}
 .home .walk .walk-img img {
   width: 100%;
   height: auto;
