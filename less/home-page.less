@@ -76,6 +76,15 @@
     display: flex;
     justify-content: center;
 
+    @media @phone {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: @comfortSpacing;
+      margin: @comfortSpacing;
+  }
+
     .walk-text {
       width: 50%;
 
