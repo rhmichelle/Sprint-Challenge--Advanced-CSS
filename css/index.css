@@ -241,9 +241,10 @@ footer {
 .home .walk .walk-text .btn {
   display: inline-block;
   padding: 1rem;
-  width: 9rem;
+  width: 10rem;
   background-color: #23293B;
   color: white;
+  font-size: 2rem;
   text-align: center;
   border-radius: 5px;
 }
