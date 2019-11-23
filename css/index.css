@@ -160,6 +160,20 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.navBar {
+  width: 50%;
+  margin: 0 auto;
+}
+.navBar h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 1rem 0;
+}
+.navBar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
