@@ -1,1 +1,23 @@
 // Mixins Here
+.flex(@justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.navMix {
+    background-color: @nav-bg;
+    font-family: @nav-font;
+    border-color: @nav-border;
+}
+
+.button(@width, @color) {
+    display: inline-block;
+    padding: 1rem;
+    width: @width;
+    background-color: @color;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 5px;
+}
