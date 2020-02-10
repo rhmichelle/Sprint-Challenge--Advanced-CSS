@@ -487,7 +487,10 @@ footer {
   margin-top: 10rem;
 }
 .intro p {
-  margin: 1rem 0 10rem 0;
+  margin: 1rem 0 5rem 0;
+}
+.magazineSubscription form {
+  margin-bottom: 15rem;
 }
 h1 {
   font-size: 2rem;
@@ -535,4 +538,8 @@ form button {
 }
 .contact {
   margin: 2rem 0 4rem 0;
+}
+.contact p {
+  margin: 1rem 0 5rem 0;
+  padding: 0 15px;
 }
