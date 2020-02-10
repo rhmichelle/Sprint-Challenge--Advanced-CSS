@@ -189,10 +189,20 @@ footer {
   align-items: center;
 }
 .navBar {
-  width: 100%;
   background-color: #F6F6F6;
   font-family: #454A59;
   border-color: #F1F1F1;
+  /**************** STRETCH GOAL HERE ****************/
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(246, 246, 246, 0.8);
+  /**************** STRETCH GOAL HERE ****************/
+}
+@media (max-width: 500px) {
+  .navBar {
+    position: static;
+  }
 }
 .navBar h1 {
   width: 50%;
@@ -200,6 +210,13 @@ footer {
   font-size: 3rem;
   text-align: center;
   padding: 1rem 0;
+}
+.home .intro {
+  /**************** STRETCH GOAL HERE ****************/
+  /**************** STRETCH GOAL HERE ****************/
+}
+.home .intro img {
+  margin-top: 7.5rem;
 }
 .home .intro h2 {
   padding: 15px;

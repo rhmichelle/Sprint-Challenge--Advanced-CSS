@@ -1,17 +1,24 @@
 // NavBar Content
 
 .navBar {
-  width: 100%;
   .navMix();
-
+  /**************** STRETCH GOAL HERE ****************/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(246, 246, 246, 0.8);
+  /**************** STRETCH GOAL HERE ****************/
+          @media @phone {
+            position: static;
+          }
   h1 {
       width: 50%;
       margin: 0 auto;
       font-size: 3rem;
       text-align: center;
       padding: @comfortSpacing;
-  }
-}
+  } //h1
+} //navBar
 
 
 
@@ -23,6 +30,11 @@
 
   .intro {
 
+/**************** STRETCH GOAL HERE ****************/
+    img {
+      margin-top: 7.5rem;
+    }
+/**************** STRETCH GOAL HERE ****************/
     h2 {
       padding: 15px;
     }
